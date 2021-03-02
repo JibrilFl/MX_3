@@ -11,18 +11,26 @@
         justify-content: center;
         gap: 6px;
     }
-    &__subtitle{
-        margin-top: 5px;
-    }
     &__item {
-        padding: 14px 0 13px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
         width: 166px;
         min-height: 94px;
         border: 1px solid #000;
     }
     &__descr {
         margin: 0 auto;
-        margin-top: 20px;
+        margin-top: 163px;
         width: 308px;
     }
+    &__carousel {
+        margin-top: 50px;
+    }
 }
+.table>:not(caption)>*>* {
+    padding: 0;
+}
+
+

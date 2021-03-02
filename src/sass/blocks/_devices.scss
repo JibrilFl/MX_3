@@ -1,0 +1,25 @@
+.devices {
+    padding: 70px 0 220px 0;
+    background: url('../../img/High_Resolution_JPG-MX Lifestyle 2346 1.png') no-repeat bottom;
+    background-color: #EDEDED;
+    &__text {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 308px;
+    }
+    &__lists {
+        list-style-type: none;
+        margin-top: 30px;
+        margin-left: 54px;
+        padding: 0;
+    }
+    &__list {
+        margin-top: 16px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #2F3132;
+        width: 201px;
+    }
+}
