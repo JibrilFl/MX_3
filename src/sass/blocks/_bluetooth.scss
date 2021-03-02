@@ -1,0 +1,19 @@
+.bluetooth {
+    padding: 42px 0 18px 0;
+    background: #EDEDED;
+    &__icon {
+        display: flex;
+        justify-content: center;
+    }
+    &__title {
+        margin-top: 27px;
+    }
+    &__text {
+        margin-top: 20px;
+    }
+    &__descr {
+        margin-top: 31px;
+        height: 288px;
+        background: url('../../img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png') no-repeat bottom;
+    }
+}

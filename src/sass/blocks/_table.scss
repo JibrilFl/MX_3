@@ -1,0 +1,28 @@
+.table {
+    padding: 70px 0 63px 0;
+    &__text {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 247px;
+    }
+    &__wrapper {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 6px;
+    }
+    &__subtitle{
+        margin-top: 5px;
+    }
+    &__item {
+        padding: 14px 0 13px 0;
+        width: 166px;
+        min-height: 94px;
+        border: 1px solid #000;
+    }
+    &__descr {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 308px;
+    }
+}

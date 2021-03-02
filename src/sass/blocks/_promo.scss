@@ -1,0 +1,25 @@
+.promo {
+    padding: 25px 0 48px 0;
+    background: #E0E1E2;
+    &__logo {
+        &_img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__img {
+        margin-top: 94px;
+        height: 230px;
+        background: url('../img/MX-Master 1.png') no-repeat center;
+    }
+    &__text {
+        margin: 0 auto;
+        margin-top: 67px;
+        width: 308px;
+    }
+    &__arrow {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+}
