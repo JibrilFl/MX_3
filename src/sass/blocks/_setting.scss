@@ -1,0 +1,20 @@
+.setting {
+    background-color: #EDEDED;
+    padding: 70px 0 0 0;
+    &__text {
+        width: 308px;
+    }
+    &__carousel {
+        margin-top: 35px;
+        min-height: 404px;
+    }
+    &__wrapper {
+        margin-top: 60px;
+        background-color: #C4C4C4;
+        padding:23px 0 26px 0;
+    }
+    &__icons {
+        display: flex;
+        justify-content: space-around;
+    }
+}

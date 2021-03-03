@@ -6,12 +6,18 @@
     text-align: center;
     color: #2F3132;
     &_fz14 {
+        margin: 0 auto;
         font-weight: normal;
         font-size: 14px;
         line-height: 16px;
-
+        &_white {
+            margin-top: 20px;
+            color: white;
+        }
     }
     &_fz16 {
+        margin: 0 auto;
+        margin-top: 20px;
         font-weight: normal;
         font-size: 14px;
         line-height: 16px;
