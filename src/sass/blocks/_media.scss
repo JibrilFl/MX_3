@@ -1,0 +1,115 @@
+@media (min-width: 768px) {
+    .title {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 47px;
+        &_fz14 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 28px;
+        }
+        &_fz16 {
+            width: 730px;
+            margin-top: 30px;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+        }
+        &_fz60 {
+            margin-top: 76px;
+            font-size: 150px;
+            line-height: 176px;
+        }
+    }
+    
+    .promo {
+        padding: 54px 0 80px 0;
+        &__logo{
+            &_img {
+                width: 240px;
+            }
+        }
+        &__img {
+            height: 514px;
+            margin: 160px 0 124px 0;
+            background-size: contain;
+        }
+        &__arrow {
+            margin-top: 76px;
+        }
+        &__arrow svg{
+            width: 54px;
+            height: 29px;
+        }
+    }
+
+    .bluetooth {
+        padding: 80px 0 0px 0;
+        &__icon svg {
+            width: 22px;
+            height: 40px;
+        }
+        &__title {
+            margin-top: 39px;
+        }
+        &__descr {
+            height: 600px;
+            background-size: contain;
+        }
+    }
+
+    .table {
+        padding-bottom: 61px;
+        &__text {
+            width: 695px;
+        }
+        &__wrapper {
+            margin-top: 50px;
+            gap: 30px;
+        }
+        &__item {
+            width: 300px;
+            min-height: 170px;
+        }
+        &__title {
+            margin-top: 50px;
+            font-size: 24px;
+            line-height: 28px;
+        }
+        &__descr {
+            margin-top: 85px;
+            width: 730px;
+        }
+    }
+
+    .devices {
+        height: 1088px;
+        background-size: contain;
+        &__lists {
+            margin: 70px 0 0 0;
+            display: flex;
+            justify-content: center;
+        }
+        &__list {
+            width: 250px;
+            border-right: 1px solid #494949;
+            padding: 0 15px;
+            margin-top: 0;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            &:nth-child(1) {
+                width: 305px;
+            }
+            &:nth-child(2) {
+                width: 296px;
+            }
+            &:last-child {
+                border-right: none;
+                width: 137px;
+            }
+        }
+    }
+
+}
