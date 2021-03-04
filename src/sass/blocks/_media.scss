@@ -16,10 +16,20 @@
             font-size: 24px;
             line-height: 28px;
         }
+        &_white {
+            margin-top: 25px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 23px;
+        }
         &_fz60 {
             margin-top: 76px;
             font-size: 150px;
             line-height: 176px;
+        }
+        &_width {
+            width: 625px;
         }
     }
     
@@ -109,6 +119,28 @@
                 border-right: none;
                 width: 137px;
             }
+        }
+    }
+
+    .setting {
+        background-color: #ededed;
+        padding: 69px 0px 70px 0px;
+        &__carousel {
+            margin: 0 auto;
+            margin-top: 54px;
+            width: 497px;
+        }
+        &__wrapper {
+            margin: 148px 65px 0 64px;
+            padding: 38px 0 39px 0;
+        }
+        &__icons {
+            margin: 0 auto;
+            width: 512px;
+        }
+        &__icon {
+            min-width: 35px;
+            min-height: 35px;
         }
     }
 
