@@ -2,9 +2,14 @@
     &__item {
         margin-top: 70px;
     }
-    &__img {
-        display: block;
-        margin: 0 auto;
+    &__img1 {
+        background: url('../img/image 1.jpg') no-repeat center;
+        height: 310px;
         margin-top: 20px;
     }
+    &__img2 {
+        background: url('../img/image 2.jpg') no-repeat center;
+        height: 310px;
+        margin-top: 20px;
+    }    
 }
