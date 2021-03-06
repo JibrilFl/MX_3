@@ -1,6 +1,5 @@
 @media (min-width: 768px) {
     .title {
-        font-weight: 900;
         font-size: 40px;
         line-height: 47px;
         &_fz14 {
@@ -67,7 +66,7 @@
         }
     }
 
-    .table {
+    .info {
         padding-bottom: 61px;
         &__text {
             width: 695px;
@@ -166,11 +165,389 @@
             line-height: 16px;
         }
     }
+    
+    .hamburger {
+        right: 58px;
+        top: 67px;
+        width: 61px;
+        height: 32px;
+        span {
+            height: 8px;
+        }
+        &_active {
+            span {
+                margin-bottom: -8px;
+            }
+        }
+    }
+    
+    .menu_link {
+        font-size: 40px;
+        line-height: 47px;
+        line-height: 1.5;
+        &:after {
+            height: 4px;
+        }
+    }
+
+    .carousel-control-prev-icon{
+        height: 24px;
+        width: 14px;
+    }
+    
+    .carousel-control-next-icon{
+        height: 24px;
+        width: 14px;
+    }
+
+    .carousel-control-prev {
+        top: 600px;
+        height: 18px;
+        width: 9px;
+        left: 180px;
+    }
+
+    .carousel-control-next {
+        top: 600px;
+        height: 18px;
+        width: 9px;
+        right: 180px;
+    }
+
+    .carousel-indicators{
+        margin: auto;
+        width: 320px;
+        bottom: -140px;
+        &_setting {
+            bottom: -50px;
+        }
+    }
+
+    .carousel-indicators [data-bs-target="#carouselExampleIndicators"] {
+        margin: 0 17px;
+    }
+
+    .carousel-indicators [data-bs-slide-to="0"] {
+        background-image: url('../img/slider/wood-texture.png');
+    }
+
+    .carousel-indicators [data-bs-slide-to="1"] {
+        background-image: url('../img/slider/texture.png');
+    }
+
+    .carousel-indicators [data-bs-slide-to="2"] {
+        background-image: url('../img/slider/linoleum-texture.png');
+    }
+
+    .carousel-indicators [data-bs-slide-to="3"] {
+        background-image: url('../img/slider/cloth-texture.png');
+    }
+
+    .carousel-indicators [data-bs-slide-to="4"] {
+        background-image: url('../img/slider/marble-texture.png');
+    }
+
+    .carousel-indicators [data-bs-target="#carouselExampleIndicatorsSetting"] {
+        background: #2F3132;
+        height: 11px;
+        border-radius: 100%;
+        margin: 0 12.5px;
+    }
 }
+
 
 @media (min-width: 1024px) {
     .center {
         padding-left: calc(50% - 580px);
         padding-right: calc(50% - 580px);
+        &__bluetooth {
+            padding-left: calc(50% - 622px);
+            padding-right: calc(50% - 622px);
+        }
+        &__devices {
+            padding-left: calc(50% - 479px);
+            padding-right: calc(50% - 479px);
+        }
+    }
+    
+    .title {
+        font-size: 36px;
+        line-height: 42px;
+        &_fz16 {
+            font-size: 20px;
+            line-height: 23px;
+        }
+        &_fz60 {
+            font-size: 96px;
+            line-height: 112px;
+            margin-top: 59px;
+        }
+        &_white {
+            font-size: 20px;
+            line-height: 23px;
+        }
+
+    }
+
+    .promo {
+        padding: 0 0 56px 0;
+        &__logo {
+            position: absolute;
+            left: unset;
+            transform: none;
+            top: 28px;
+            z-index: 1;
+            &_img {
+            width: 150px;
+            }
+            &_active {
+                display: block;
+            }
+            &_dark {
+                display: none;
+            }
+        }
+        &__img {
+            margin: 100px 0 0 0;
+            height: 674px;
+        }
+        &__menu {
+            margin-left: 297px;
+        }
+        &__text {
+            margin-top: 8px;
+        }
+        &__arrow {
+            margin-top: 49px;
+            svg {
+                width: 57px;
+            }
+        }
+            
+    }
+    nav {
+        position: relative;
+        background-color: #2F3132;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .menu {
+        position: relative;
+        display: flex;
+        height: 100px;
+        flex-direction: row;
+        justify-content: space-between;
+        transition: unset;
+        left: 0;
+        margin: 0 auto;
+        list-style-type: none;
+        background-color: #2F3132;
+        &_link {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            &:after {
+                background-color: #FFFFFF;
+            }
+        }
+        &_item {
+            padding: 0 18px 0 18px;
+            border-right: 1px solid #494949;
+            &:first-child {
+                padding-left: 0;
+            }
+            &:last-child {
+                border-right: none;
+                padding-right: 0;
+            }
+        }
+    }
+
+    .bluetooth {
+        padding: 80px 0 70px 0;
+        &__descr {
+            height: 426px;
+            background: url('../img/High_Resolution_PNG-MX\ Master\ 3\ FRONT\ GRAPHITE.png') no-repeat 0 119px, url('../img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE.png') no-repeat right 119px;
+        }
+        &__subtitle {
+            display: flex;
+            justify-content: center;
+            &_num {
+                font-size: 300px;
+                line-height: 352px;
+                padding-left: 80px;
+            }
+            &_day {
+                padding-top: 45px;
+            }
+        }
+        &__text {
+            margin-top: 35px;
+        }
+    }
+
+    .info {
+        padding: 100px 0;
+        &__text {
+            margin-top: 35px;
+            width: 765px;
+        }
+        &__subtitle {
+            font-size: 20px;
+            line-height: 23px;
+        }
+        &__wrapper {
+            gap: 32px;
+        }
+        &__item {
+            width: 237px;
+            min-height: 140px;
+        }
+        &__carousel {
+            padding-left: calc(50% - 640px);
+            padding-right: calc(50% - 640px);
+        }
+        &__title {
+            margin-top: 39px;
+            font-size: 20px;
+            line-height: 23px;
+        }
+        &__descr {
+            margin-top: 90px;
+            width: 765px;
+        }
+    }
+
+    .devices {
+        min-height: 1400px;
+        padding-top: 100px;
+        padding-bottom: 0;
+        background: url('../img/High_Resolution_JPG-MX Lifestyle 2346 2.png') no-repeat 50%/cover;
+        background-repeat: no-repeat;
+        &__text {
+            margin-top: 35px;
+            width: 940px;
+        }
+        &__lists {
+            margin-left: 24px;
+            justify-content: space-between;
+        }
+        &__list {
+            padding:0 50px 0 0;
+            &:nth-child(1) {
+                width: 325px;
+            }
+            &:nth-child(2) {
+                width: 320px;
+            }
+            &:last-child {
+                width: 143px;
+                margin-right: 9px;
+                padding-right: 0;
+            }
+        }
+    }
+
+    .setting {
+        padding: 100px 0;
+        &__carousel {
+            display: none;
+        }
+        &__text {
+            margin-top: 38px;
+            width: 800px;
+        }
+        &__img {
+            display: block;
+            margin: 0 auto;
+            margin-top: 72px;
+        }
+        &__wrapper {
+            margin: 0 auto;
+            width: 749px;
+            padding: 38px 0 29px 0;
+        }
+    }
+
+    .carousel{
+        height: 573px;
+    }
+
+    .carousel-inner img {
+        height: 573px;
+    }
+
+    .plus {
+        display: grid;
+        &__wrapper {
+            display: grid;
+            grid-template-columns: repeat(2, 655px);
+            grid-template-rows: repeat(2, 557px);
+            padding: 100px 0;
+            justify-self: center;
+            align-items: center;
+        }
+        &__item {
+            margin-top: 0;
+            &_1 {
+                width: min-content;
+                text-align: left;
+                justify-self: flex-start;
+                margin-left: 37px;
+            }
+            &_2 {
+                width: min-content;
+                text-align: right;
+                justify-self: flex-end;
+                margin-right: 37px;
+            }
+        }
+        &__title {
+            text-align: inherit;
+        }
+        &__text { 
+            text-align: inherit;
+            margin-top: 28px;
+            width: 400px;
+        }
+        &__img1 {
+            background: url('../img/table/image 3.png') no-repeat center;
+            height: 557px;
+            margin-top: 0;
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+        }
+        &__img2 {
+            background: url('../img/table/image 4.png') no-repeat center;
+            height: 557px;
+            margin-top: 0;
+        }
+    }
+
+    .carousel-control-prev {
+        top: 669px;
+        height: 18px;
+        width: 9px;
+        left: 470px;
+    }
+
+    .carousel-control-next {
+        top: 669px;
+        height: 18px;
+        width: 9px;
+        right: 470px;
+    }
+
+    .carousel-indicators{
+        bottom: -130px;
+    }
+
+    .carousel-indicators [data-bs-target="#carouselExampleIndicators"] {
+        margin: 0 15px;
     }
 }

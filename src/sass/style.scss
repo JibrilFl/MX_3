@@ -1,6 +1,6 @@
 @import 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css';
 @import 'libs/bootstrap-reboot.min';
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -11,7 +11,7 @@
 @import 'blocks/promo';
 @import 'blocks/title';
 @import 'blocks/bluetooth';
-@import 'blocks/table';
+@import 'blocks/info';
 @import 'blocks/devices';
 @import 'blocks/setting';
 @import 'blocks/plus';

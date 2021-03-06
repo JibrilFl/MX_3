@@ -1,4 +1,4 @@
-.table {
+.info {
     padding: 70px 0 63px 0;
     &__text {
         margin: 0 auto;
@@ -38,8 +38,3 @@
         width: 308px;
     }
 }
-.table>:not(caption)>*>* {
-    padding: 0;
-}
-
-

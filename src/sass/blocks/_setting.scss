@@ -10,12 +10,15 @@
         min-height: 404px;
     }
     &__wrapper {
-        margin-top: 60px;
+        margin-top: 80px;
         background-color: #C4C4C4;
         padding:23px 0 26px 0;
     }
     &__icons {
         display: flex;
         justify-content: space-around;
+    }
+    &__img {
+        display: none;
     }
 }

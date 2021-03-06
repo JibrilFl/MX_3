@@ -6,13 +6,15 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        display: block;
-        margin: 0 auto;
+        z-index: 1;
+        &_active {
+            display: none;
+        }
     }
     &__img {
         margin-top: 94px;
         height: 230px;
-        background: url('../img/MX-Master 1.png') no-repeat center;
+        background: url('../img/MX-Master 1.svg') no-repeat center;
         background-size: auto;
     }
     &__text {
@@ -117,32 +119,70 @@ nav {
 }
 
 
-// header
-// 	position: relative;
-// 	height: 50px;
+.carousel-control-prev-icon{
+    background-image: url('../img/slider/arrow-left.svg');
+    height: 18px;
+    width: 9px;
+}
+
+.carousel-control-next-icon{
+    background-image: url('../img/slider/arrow-right.svg');
+    height: 18px;
+    width: 9px;
+}
+
+.carousel-control-prev {
+    top: 309px;
+    height: 18px;
+    width: 9px;
+    left: 28px;
+}
+
+.carousel-control-next {
+    top: 309px;
+    height: 18px;
+    width: 9px;
+    right: 28px;
+}
+
+.carousel-indicators{
+    bottom: -116px;
+    &_setting {
+        bottom: -50px;
+    }
+}
+
+.carousel-indicators [data-bs-target="#carouselExampleIndicators"] {
+    margin: 0 11px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.carousel-indicators [data-bs-slide-to="0"] {
+    background-image: url('../img/slider/wood-texture.png');
+}
+
+.carousel-indicators [data-bs-slide-to="1"] {
+    background-image: url('../img/slider/texture.png');
+}
+
+.carousel-indicators [data-bs-slide-to="2"] {
+    background-image: url('../img/slider/linoleum-texture.png');
+}
+
+.carousel-indicators [data-bs-slide-to="3"] {
+    background-image: url('../img/slider/cloth-texture.png');
+}
+
+.carousel-indicators [data-bs-slide-to="4"] {
+    background-image: url('../img/slider/marble-texture.png');
+}
 
 
-   
-// .hamburger
-// 	display: none
-// .menu
-// 	display: flex
-// 	justify-content: space-between
-// 	padding: 13px 70px
-// 	margin: 0
-// 	list-style-type: none
-// 	&_link
-// 		color: #ffffff
-// 		font-size: 15px
-// 		font-weight: 300
-// 		&:hover 
-// 			text-decoration: 
-// 			color: red
-// 	&_item
-// 		border-right: 2px dotted black
-// 		padding-right: 28px
-// 		&:last-child
-// 			border-right: none
-
-           
-        
+.carousel-indicators [data-bs-target="#carouselExampleIndicatorsSetting"] {
+    background: #2F3132;
+    height: 10px;
+    border-radius: 100%;
+    margin: 0 7.5px;
+}

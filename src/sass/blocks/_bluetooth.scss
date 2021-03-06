@@ -14,6 +14,10 @@
     &__descr {
         margin-top: 31px;
         height: 288px;
-        background: url('../../img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png') no-repeat bottom;
+        background: url('../img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png') no-repeat bottom;
+        &_num {
+            font-size: 300px;
+            line-height: 352px;
+        }
     }
 }
